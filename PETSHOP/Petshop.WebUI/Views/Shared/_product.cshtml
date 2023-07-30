@@ -1,0 +1,21 @@
+﻿@model Product 
+ <div class="pb-5">
+ <div class="product-item position-relative bg-light d-flex flex-column text-center">
+                        @if (Model.ProductPictures.Any())
+                        {
+                            <img src="@Model.ProductPictures.FirstOrDefault().Picture" alt="@Model.Name"/>
+                        }
+                        else
+                        {
+                            <img src="/img/urunHazirlaniyor.jpg" alt="Ürün görseli hazırlanıyor"/>    
+                        }
+                        
+                        <h6 class="text-uppercase">@Model.Name</h6>
+                        <h5 class="text-primary mb-0">@Model.Price</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a class="btn btn-primary py-2 px-3" href="">SEPETE EKLE</a>
+                           
+                            <a asp-controller="product" asp-action="Detail" asp-route-name="@GeneralTool.URLConvert(Model.Name)" asp-route-id="@Model.ID" class="btn btn-primary py-2 px-3" ><i></i>ÜRÜN DETAYI</a>
+                        </div>
+                    </div>
+                </div>

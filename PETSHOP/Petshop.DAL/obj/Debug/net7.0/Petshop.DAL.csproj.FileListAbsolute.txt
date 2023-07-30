@@ -1,0 +1,14 @@
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\bin\Debug\net7.0\Petshop.DAL.deps.json
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\bin\Debug\net7.0\Petshop.DAL.runtimeconfig.json
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\bin\Debug\net7.0\Petshop.DAL.dll
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\bin\Debug\net7.0\Petshop.DAL.pdb
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\obj\Debug\net7.0\Petshop.DAL.csproj.AssemblyReference.cache
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\obj\Debug\net7.0\Petshop.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\obj\Debug\net7.0\Petshop.DAL.AssemblyInfoInputs.cache
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\obj\Debug\net7.0\Petshop.DAL.AssemblyInfo.cs
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\obj\Debug\net7.0\Petshop.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\obj\Debug\net7.0\Petshop.DAL.dll
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\obj\Debug\net7.0\refint\Petshop.DAL.dll
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\obj\Debug\net7.0\Petshop.DAL.pdb
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\obj\Debug\net7.0\Petshop.DAL.genruntimeconfig.cache
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.DAL\obj\Debug\net7.0\ref\Petshop.DAL.dll

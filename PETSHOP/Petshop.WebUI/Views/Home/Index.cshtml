@@ -1,0 +1,215 @@
+﻿@model IndexVM
+<div class="container-fluid bg-primary py-5 mb-5 hero-header">
+    <div class="container py-5">
+        <div class="row justify-content-start">
+            <div class="col-lg-8 text-center text-lg-start">
+                <h1 class="display-1 text-uppercase text-dark mb-lg-4">Pet Shop</h1>
+                <h1 class="text-uppercase text-white mb-lg-4">HAYVANLARINIZI MUTLU EDİN</h1>
+                
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                    
+                   
+                        <span></span>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hero End -->
+<!-- Video Modal Start -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- 16:9 aspect ratio -->
+                <div class="ratio ratio-16x9">
+                    <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Video Modal End -->
+<!-- About Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row gx-5">
+            <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100 rounded" src="/img/about.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="border-start border-5 border-primary ps-5 mb-5">
+                    <h6 class="text-primary text-uppercase">HAKKIMIZDA</h6>
+                    <h1 class="display-5 text-uppercase mb-0">HAYVANLARINIZI HER ZAMAN MUTLU TUTACAĞIZ</h1>
+                </div>
+                <h4 class="text-body mb-4">KÖPEK VE KEDİ DOSTLARIMIZ HAKKINDA BİLGİLER</h4>
+                <div class="bg-light p-4">
+                    <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item w-50" role="presentation">
+                            <button class="nav-link text-uppercase w-100 active" id="pills-1-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
+                                    aria-selected="true">
+                                KÖPEK DOSTLARIMIZ HAKKINDA BİLGİLER
+                            </button>
+                        </li>
+                        <li class="nav-item w-50" role="presentation">
+                            <button class="nav-link text-uppercase w-100" id="pills-2-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
+                                    aria-selected="false">
+                                KEDİ DOSTLARIMIZ HAKKINDA BİLGİLER
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                            <p class="mb-0">Köpekler ortalama olarak 200 kelimeyi öğrenebilir. Köpekler insanlardan 1000 kere daha fazla daha iyi koku alabilen bir burna sahiptir. Köpekler renk körü bir insana benzer şekilde görme yetisine sahiptir. Köpekler 14 bin yıldan uzun süredir insanlarla yaşamını sürdürmektedir.</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                            <p class="mb-0">
+                                 Bir kedi ömrü boyunca 420 adet kediye annelik yapabilir. Bu sayının kedilerin yaşadığı ortamda yavrularının da büyümesi ve üremesiyle ne kadar çoğalabileceklerini bu örnekten yola çıkarak düşünebilirsiniz. Bu noktada kedilerin sağlıklı bir şekilde üremesi ve yaşamını idame ettirmesi için kısırlaştırmanın da önemine bir kez daha dikkat çekmekte fayda var.
+
+
+                                 Kediler tatlı yiyeceklerin tadını alamazlar. Kedinize tatlı yiyecekler yedirmek sağlıkları açısından oldukça zararlıdır, üstelik kediler tatlının tadını zaten alamazlar.
+
+
+                                 Kediler hayatlarının büyük bir kısmını uyuyarak geçiren canlılardır. Bu oran o kadar çoktur ki kedilerin yaşamı süresince ortalama uyuma süresi %70 ile %80 arasında değişmektedir.
+
+
+                                 Kedilerin kulaklarındaki kasların toplamı 20’dir. Bu nedenle kediler kulaklarını rahatlıkla oynatabilmektedir. İnsanların kulak kası toplamda 6 adettir.
+
+
+                                 Siyah kediler ülkemizde uğursuzluk belirtisi olarak anılsa da bu durum tüm dünyada böyle değildir. Örneğin İngiltere ve Avustralya’da bu durum tam tersidir ve bu ülkedeki insanlar siyah kedilerin şans getireceğine inanmaktadır.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+<!-- Services Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+            <h6 class="text-primary text-uppercase">
+                HİZMETLER
+            </h6>
+            <h1 class="display-5 text-uppercase mb-0">HAYVAN BAKIM HİZMETLERİMİZ</h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-md-6">
+                <div class="service-item bg-light d-flex p-4">
+                    <i class="flaticon-house display-1 text-primary me-4"></i>
+                    <div>
+                        <h5 class="text-uppercase mb-3">evcil hayvan pansiyonu</h5>
+                        <p>Temel ihtiyaçlarının karşılanmasının yanında, yürüyüşe çıkarma, bahçede özgürce oynamaları, gün içerisinde yeterince enerji harcamalarını destekleyici egzersizler yapmasına olanak sağlanmaktadır. Yalnızlık çekmemesi ve stres yaşamaması adına birçok şey sunulmaktadır. Mamasının değişmemesi konusunda rica etmeniz halinde evinizde kullandığınız mamayı onlara vermelerini sağlayabilirsiniz gelmeden önce randevu almanız gerekmektedir.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item bg-light d-flex p-4">
+                    <i class="flaticon-food display-1 text-primary me-4"></i>
+                    <div>
+                        <h5 class="text-uppercase mb-3">evcil hayvan besleme</h5>
+                        <p>
+                            nasıl mama seçmeliyiz sorusuna cevabımız. Bunda en önemli kısım aslında iyi bir veteriner hekim seçimi. Veterinerinize besleme ile ilgili sorular sormalı, kedimiz köpeğimiz için en uygun mamayı beraber seçmelisiniz. Hayvan beslenmesinde önemli olan bir konu da dönemsel ihtiyaçlar. 3 aylık bir kedi ve idrar yollarında taş olan 2 yaşında bir kedinin ihtiyaçları ve yemesi gereken mamalar farklıdır. Aynen Rottweiler ve Pekinez'in ihtiyaçlarının farklı olması gibi.
+
+
+
+
+                            En son olarak da mama etiketlerinden bahsedip ilk bölümü bitirelim. Mama paketlerinde ingredients (içindekiler) kısmı çok önemli bir kısım. Amerikan kanunlarına göre bu kısımda mamanın içinde en çok bulunandan en az bulunana göre içerik sırayla yazılır. İlk içeriğin özellikle kedi mamalarında, hayvansal bir protein kaynağı olması (özel diyet mamalar haricinde) mamanın kalitesini belirler. İlk sıralarda mısır, buğday gibi bitkisel proteinler varsa, aslında kedi veya köpeğinizin bağırsaklarını çalıştırıp bol miktarda kaka yapmasını sağlarsınız. Bu bitkisel proteinler özellikle kedilerde hiç sindirilmeden atılır. Kaliteli bir mama ile beslenen sağlıklı petler şekilli, orta sertlikte kaka yaparlar.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item bg-light d-flex p-4">
+                    <i class="flaticon-grooming display-1 text-primary me-4"></i>
+                    <div>
+                        <h5 class="text-uppercase mb-3">evcil hayvan bakımı</h5>
+                        <p>Çalışan kişilerin evde bir hayvanın bakımını üstlenmesi bazen zor olabilir. Evde hayvan bakımı, aslında bir nevi çocuk bakımı gibi düşünülebilir. Çünkü aileleri çocuklarla nasıl ilgilenirse hayvanları ile de yeme-içme ve tuvalet ihtiyaçlarına yönelik bakımlarını yapmaları gerekir. Evdeki hayvanların da çocuklar gibi özel bir ilgiye ihtiyacı vardır. Ayrıca tuvalet ihtiyaçları ile özel olarak ilgilenilmesi gerekir. Düzenli olarak aşılarının yaptırılması, sağlık kontrollerinin ihmal edilmemesi, hatta kilo kontrolünün sağlanması bile evcil dostların bakımını üstlenen kişilerce yerine getirilmesi gereken yükümlülüklerdir. Her şeyden önce can dostu olarak size eşlik eden evcil hayvanlarınız, yeri geldiğinde çocuk gibi ilgi isteyebilir. Onlarla oyun oynayıp hem kendiniz hem de onlar için kaliteli bir zaman yaratabilirsiniz. Neşenizi yerine getiren, zaman zaman yaramazlıkları ile sizi çileden çıkaran ama nihayetinde gözünüzün bebeği olan hayvanlarınızın konforu da son derece önemlidir. Bazen iş nedeniyle şehir dışına ya da yurt dışına çıkmanız gerekebilir. Bu durumda ise evcil hayvan bakımı konusunda deneyimli ya da evcil dostunuza sizin kadar iyi bakabilecek bir dosta ihtiyaç duyabilirsiniz. O halde evcil hayvan bakımı konusunda deneyimli bir arkadaşınız size yardımcı olabilir.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item bg-light d-flex p-4">
+                    <i class="flaticon-cat display-1 text-primary me-4"></i>
+                    <div>
+                        <h5 class="text-uppercase mb-3">evcil hayvan eğitimi</h5>
+                        <p>
+                            Yavru köpekler, çevresine karşı yoğun bir merak duyan küçük enerji depolarıdır. Yavru köpekle yaşamak, insan yavrusuyla yaşamaktan çok da farklı değildir. Yavru köpeğinizi beladan uzak tutmak, doğru davranışları öğrenmesine yardımcı olmak ve ona güvenli bir şekilde dünyayı öğretmek için ona bakarken çok fazla sabra ihtiyacınız olacak.
+
+                            İyi haber: Yavru köpekler çok uyur ancak her zaman tüm gece boyunca uyumaz. Tuvaletini yapması gerektiği veya uyanıp yalnızca korkmuş hissettiği için ağlayarak veya havlayarak evdekileri uyandırabilir. Yavru köpekler, yetişkin dişleri çıkarken çok fazla çiğneme ihtiyacı hisseder. Bu yüzden salondaki halınızın, koltuğunuzun, en sevdiğiniz ayakkabıların ve hatta elinizin mükemmel bir çiğneme oyuncağı olduğunu görebilirsiniz. Bu davranışlara sinirleniyorsanız yavru köpek yetiştirmenin geçici bir durum olduğunu hatırlamak önemlidir. Yetişkinliğe geçtiğinde, yavru köpekken yaptığı çoğu şeyi geçmişte bırakacaktır.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item bg-light d-flex p-4">
+                    <i class="flaticon-dog display-1 text-primary me-4"></i>
+                    <div>
+                        <h5 class="text-uppercase mb-3">evcil hayvan egzersizi</h5>
+                        <p>
+                            Köpeklere kilo verdirmenin en iyi yolu, diyetini ve egzersiz rejimini değiştirmektir. Günlük bir rutin oluşturarak ve köpeğinizin ağırlığındaki değişiklikleri izleyerek evcil hayvanınızın yavaş yavaş kilo vermesine yardımcı olabilirsiniz. Kilo durumunda olumlu bir değişiklik görmek birkaç hafta sürebilir. Ancak sonuçta daha sağlıklı, daha ince bir köpek olacaktır. Ayrıca evcil hayvanınız daha sağlıklı olacak ve veteriner faturaları azalacak!
+
+                            Köpeğinizi günlük yürüyüşlere çıkararak ve dayanıklılığını kademeli olarak artırarak egzersizlere başlayabilirsiniz. Anahtar, düzenli bir egzersiz ve beslenme programına bağlı kalmaktır. Köpeklerde aşırı kilo sorunu genellikle ek besinler ya da mama ile beslememe gibi hatalardan kaynaklanır. Ek besinler yani ödül atıştırmalıkları elbette verilebilir. Ancak aşırıya kaçılmamalı ve mama miktarının küçük bir kısmını oluşturmalıdır. Yağ içeriği yüksek olan besinler köpeklerden uzak tutulmalıdır.  Köpeğinizi serbest beslemek obeziteye yol açabilir ve olumsuz etkileri olabilir.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item bg-light d-flex p-4">
+                    <i class="flaticon-vaccine display-1 text-primary me-4"></i>
+                    <div>
+                        <h5 class="text-uppercase mb-3">evcil hayvan tedavisi</h5>
+                        <p>
+                            1 Düzenli veteriner kontrolü
+                            2 Düzenli Aşı Takibi.
+                            3 Kısırlaştırma.
+                            4 Kilo Problemi.
+                            5 Onların İnsan Olmadığını Asla Unutmayın.
+                            6 Ağız Bakımı
+                            7 Parazitlerle Mücadele.
+                            8 Eğitim.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Services End -->
+<!-- Products Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">           
+            <h1 class="display-5 text-uppercase mb-0">EN SON EKLENEN ÜRÜNLER</h1>
+        </div>
+        <div class="owl-carousel product-carousel">
+           @foreach (Product product in Model.LatestProducts)
+            {
+                <partial name="_product" model="@product"/>
+            }
+        </div>
+    </div>
+</div>
+<!-- Products End -->
+<div class="banners">
+
+</div>

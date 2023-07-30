@@ -1,0 +1,15 @@
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\bin\Debug\net7.0\Petshop.BL.deps.json
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\bin\Debug\net7.0\Petshop.BL.dll
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\bin\Debug\net7.0\Petshop.BL.pdb
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\obj\Debug\net7.0\Petshop.BL.csproj.AssemblyReference.cache
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\obj\Debug\net7.0\Petshop.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\obj\Debug\net7.0\Petshop.BL.AssemblyInfoInputs.cache
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\obj\Debug\net7.0\Petshop.BL.AssemblyInfo.cs
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\obj\Debug\net7.0\Petshop.BL.csproj.CoreCompileInputs.cache
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\obj\Debug\net7.0\Petshop.BL.dll
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\obj\Debug\net7.0\refint\Petshop.BL.dll
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\obj\Debug\net7.0\Petshop.BL.pdb
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\obj\Debug\net7.0\ref\Petshop.BL.dll
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\bin\Debug\net7.0\Petshop.DAL.dll
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\bin\Debug\net7.0\Petshop.DAL.pdb
+C:\Users\Tolga\source\repos\PETSHOP\Petshop.BL\obj\Debug\net7.0\Petshop.BL.csproj.CopyComplete
